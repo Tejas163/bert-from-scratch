@@ -1,0 +1,93 @@
+# Welcome to Build BERT From Scratch
+
+A comprehensive, self-learning project to implement BERT (Bidirectional Encoder Representations from Transformers) from the ground up using PyTorch.
+
+## What You'll Build
+
+By the end of this project, you will have implemented:
+
+- ✅ **PyTorch Fundamentals** - Tensors, autograd, nn.Module
+- ✅ **Self-Attention Mechanism** - Query, Key, Value
+- ✅ **Multi-Head Attention** - Parallel attention heads
+- ✅ **Transformer Encoder** - Residual connections, layer normalization
+- ✅ **Positional Embeddings** - Sinusoidal and learned
+- ✅ **BERT Architecture** - Embeddings + Encoder + Pooler
+- ✅ **Pretraining** - Masked Language Modeling (MLM) + Next Sentence Prediction (NSP)
+- ✅ **Finetuning** - Classification and Question Answering
+- ✅ **Inference & Serving** - REST API with FastAPI
+- ✅ **Production Optimization** - ONNX export, quantization
+
+## Learning Path
+
+| Task | Topic | Est. Time |
+|------|-------|-----------|
+| 1 | PyTorch Foundations | 2 hours |
+| 2 | Self-Attention | 2 hours |
+| 3 | Multi-Head Attention | 2 hours |
+| 4 | Transformer Encoder | 2 hours |
+| 5 | Positional Embeddings | 1 hour |
+| 6 | BERT Embeddings & Encoder | 2 hours |
+| 7 | BERT Pretraining (MLM + NSP) | 3 hours |
+| 8 | BERT Finetuning - Classification | 2 hours |
+| 9 | BERT Finetuning - QA | 2 hours |
+| 10 | Inference & Model Serving | 2 hours |
+| 11 | Production Optimization | 2 hours |
+| 12 | Advanced Exercises | 4+ hours |
+
+## Prerequisites
+
+- Python 3.10+
+- Basic understanding of neural networks
+- Familiarity with linear algebra (matrix operations)
+- PyTorch basics (covered in Task 1)
+
+## How to Use This Project
+
+1. **Start with Task 1** - Each task has a Jupyter notebook with explanations
+2. **Implement the code** - Follow along and write your own implementations
+3. **Complete exercises** - Test your understanding with exercises
+4. **Check the reference** - API docs for the modular code
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/autokernel.git
+cd autokernel
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter
+jupyter notebook
+```
+
+Then navigate to `tasks/task-01-pytorch-basics/notebook.ipynb` to begin!
+
+## Project Structure
+
+```
+autokernel/
+├── tasks/           # Learning modules (12 tasks)
+│   └── task-*/      
+│       ├── notebook.ipynb
+│       └── overview.md
+├── src/             # Modular Python code
+│   └── bert/
+├── exercises/       # Additional exercises
+├── tests/           # Unit tests
+└── _site/          # Built documentation
+```
+
+## Why Build BERT From Scratch?
+
+1. **Deep Understanding** - Go beyond high-level APIs
+2. **Interview Prep** - Master transformer internals
+3. **Customization** - Modify architecture for your needs
+4. **Research** - Build on top for novel contributions
+
+Let's begin! 🚀
