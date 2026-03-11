@@ -1,0 +1,989 @@
+[
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html",
+    "href": "tasks/task-01-pytorch-basics/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html#objective",
+    "href": "tasks/task-01-pytorch-basics/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nLearn the essential PyTorch concepts needed to implement BERT: tensors, autograd, nn.Module, and DataLoader."
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html#learning-outcomes",
+    "href": "tasks/task-01-pytorch-basics/overview.html#learning-outcomes",
+    "title": "",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nUnderstand PyTorch tensors and operations\nMaster automatic differentiation (autograd)\nBuild custom neural network modules\nUse DataLoader for efficient batch processing"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html#estimated-time",
+    "href": "tasks/task-01-pytorch-basics/overview.html#estimated-time",
+    "title": "",
+    "section": "Estimated Time",
+    "text": "Estimated Time\n2 hours"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html#reading-material",
+    "href": "tasks/task-01-pytorch-basics/overview.html#reading-material",
+    "title": "",
+    "section": "Reading Material",
+    "text": "Reading Material\n\nPyTorch Documentation\nDeep Learning with PyTorch"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html#notebook",
+    "href": "tasks/task-01-pytorch-basics/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html#exercises",
+    "href": "tasks/task-01-pytorch-basics/overview.html#exercises",
+    "title": "",
+    "section": "Exercises",
+    "text": "Exercises\n\nCreate a tensor with specific shape and initialize it\nImplement a simple linear layer from scratch\nBuild a mini MLP and verify backpropagation"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/overview.html#next-task",
+    "href": "tasks/task-01-pytorch-basics/overview.html#next-task",
+    "title": "",
+    "section": "Next Task",
+    "text": "Next Task\nTask 2: Self-Attention Mechanism"
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/overview.html",
+    "href": "tasks/task-05-positional-embeddings/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/overview.html#objective",
+    "href": "tasks/task-05-positional-embeddings/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nAdd positional information to token embeddings since attention has no inherent order."
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/overview.html#notebook",
+    "href": "tasks/task-05-positional-embeddings/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/overview.html#next-task-6-bert-embeddings-encoder",
+    "href": "tasks/task-05-positional-embeddings/overview.html#next-task-6-bert-embeddings-encoder",
+    "title": "",
+    "section": "Next: Task 6: BERT Embeddings & Encoder",
+    "text": "Next: Task 6: BERT Embeddings & Encoder"
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/overview.html",
+    "href": "tasks/task-09-bert-qa/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/overview.html#objective",
+    "href": "tasks/task-09-bert-qa/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nFinetune BERT for Question Answering (SQuAD-style)."
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/overview.html#notebook",
+    "href": "tasks/task-09-bert-qa/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/overview.html#next-task-10-inference-serving",
+    "href": "tasks/task-09-bert-qa/overview.html#next-task-10-inference-serving",
+    "title": "",
+    "section": "Next: Task 10: Inference & Serving",
+    "text": "Next: Task 10: Inference & Serving"
+  },
+  {
+    "objectID": "tasks/task-08-bert-classification/overview.html",
+    "href": "tasks/task-08-bert-classification/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-08-bert-classification/overview.html#objective",
+    "href": "tasks/task-08-bert-classification/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nFinetune BERT for sentiment analysis and text classification tasks."
+  },
+  {
+    "objectID": "tasks/task-08-bert-classification/overview.html#notebook",
+    "href": "tasks/task-08-bert-classification/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-08-bert-classification/overview.html#next-task-9-bert-finetuning---qa",
+    "href": "tasks/task-08-bert-classification/overview.html#next-task-9-bert-finetuning---qa",
+    "title": "",
+    "section": "Next: Task 9: BERT Finetuning - QA",
+    "text": "Next: Task 9: BERT Finetuning - QA"
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/overview.html",
+    "href": "tasks/task-11-production-optimization/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/overview.html#objective",
+    "href": "tasks/task-11-production-optimization/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nOptimize BERT for production: ONNX export, quantization, TorchScript."
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/overview.html#notebook",
+    "href": "tasks/task-11-production-optimization/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/overview.html#next-task-12-advanced-exercises",
+    "href": "tasks/task-11-production-optimization/overview.html#next-task-12-advanced-exercises",
+    "title": "",
+    "section": "Next: Task 12: Advanced Exercises",
+    "text": "Next: Task 12: Advanced Exercises"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/overview.html",
+    "href": "tasks/task-03-multi-head-attention/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/overview.html#objective",
+    "href": "tasks/task-03-multi-head-attention/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nExtend self-attention to multiple attention heads for better representation learning."
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/overview.html#learning-outcomes",
+    "href": "tasks/task-03-multi-head-attention/overview.html#learning-outcomes",
+    "title": "",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nUnderstand why multiple heads help\nImplement multi-head attention\nConcatenate heads and project back"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/overview.html#notebook",
+    "href": "tasks/task-03-multi-head-attention/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/overview.html#next-task",
+    "href": "tasks/task-03-multi-head-attention/overview.html#next-task",
+    "title": "",
+    "section": "Next Task",
+    "text": "Next Task\nTask 4: Transformer Encoder"
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/overview.html",
+    "href": "tasks/task-04-transformer-encoder/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/overview.html#objective",
+    "href": "tasks/task-04-transformer-encoder/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nBuild the complete Transformer Encoder block with feed-forward networks and residual connections."
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/overview.html#notebook",
+    "href": "tasks/task-04-transformer-encoder/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/overview.html#next-task-5-positional-embeddings",
+    "href": "tasks/task-04-transformer-encoder/overview.html#next-task-5-positional-embeddings",
+    "title": "",
+    "section": "Next: Task 5: Positional Embeddings",
+    "text": "Next: Task 5: Positional Embeddings"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/overview.html",
+    "href": "tasks/task-02-self-attention/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/overview.html#objective",
+    "href": "tasks/task-02-self-attention/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nImplement the self-attention mechanism, the core component of transformers."
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/overview.html#learning-outcomes",
+    "href": "tasks/task-02-self-attention/overview.html#learning-outcomes",
+    "title": "",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nUnderstand Query, Key, Value concept\nImplement scaled dot-product attention\nVisualize attention weights\nUnderstand why scaling is important"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/overview.html#estimated-time",
+    "href": "tasks/task-02-self-attention/overview.html#estimated-time",
+    "title": "",
+    "section": "Estimated Time",
+    "text": "Estimated Time\n2 hours"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/overview.html#notebook",
+    "href": "tasks/task-02-self-attention/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/overview.html#exercises",
+    "href": "tasks/task-02-self-attention/overview.html#exercises",
+    "title": "",
+    "section": "Exercises",
+    "text": "Exercises\n\nImplement self-attention from scratch\nVisualize attention patterns\nCompare scaled vs unscaled attention"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/overview.html#next-task",
+    "href": "tasks/task-02-self-attention/overview.html#next-task",
+    "title": "",
+    "section": "Next Task",
+    "text": "Next Task\nTask 3: Multi-Head Attention"
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/overview.html",
+    "href": "tasks/task-07-bert-pretraining/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/overview.html#objective",
+    "href": "tasks/task-07-bert-pretraining/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nImplement BERT pretraining with Masked Language Modeling and Next Sentence Prediction."
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/overview.html#notebook",
+    "href": "tasks/task-07-bert-pretraining/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/overview.html#next-task-8-bert-finetuning---classification",
+    "href": "tasks/task-07-bert-pretraining/overview.html#next-task-8-bert-finetuning---classification",
+    "title": "",
+    "section": "Next: Task 8: BERT Finetuning - Classification",
+    "text": "Next: Task 8: BERT Finetuning - Classification"
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/overview.html",
+    "href": "tasks/task-12-advanced-exercises/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/overview.html#objective",
+    "href": "tasks/task-12-advanced-exercises/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nExtend BERT with HuggingFace compatibility, model variants, and customizations."
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/overview.html#notebook",
+    "href": "tasks/task-12-advanced-exercises/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/overview.html#completion",
+    "href": "tasks/task-12-advanced-exercises/overview.html#completion",
+    "title": "",
+    "section": "Completion",
+    "text": "Completion\n🎉 Congratulations on completing the BERT from Scratch project!"
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/overview.html",
+    "href": "tasks/task-10-inference-serving/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/overview.html#objective",
+    "href": "tasks/task-10-inference-serving/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nCreate a FastAPI-based REST API for serving BERT predictions."
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/overview.html#notebook",
+    "href": "tasks/task-10-inference-serving/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/overview.html#next-task-11-production-optimization",
+    "href": "tasks/task-10-inference-serving/overview.html#next-task-11-production-optimization",
+    "title": "",
+    "section": "Next: Task 11: Production Optimization",
+    "text": "Next: Task 11: Production Optimization"
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/overview.html",
+    "href": "tasks/task-06-bert-embeddings-encoder/overview.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/overview.html#objective",
+    "href": "tasks/task-06-bert-embeddings-encoder/overview.html#objective",
+    "title": "",
+    "section": "Objective",
+    "text": "Objective\nCombine token, segment, and position embeddings to create BERT embeddings, then build the full encoder."
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/overview.html#notebook",
+    "href": "tasks/task-06-bert-embeddings-encoder/overview.html#notebook",
+    "title": "",
+    "section": "Notebook",
+    "text": "Notebook\nOpen notebook.ipynb"
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/overview.html#next-task-7-bert-pretraining",
+    "href": "tasks/task-06-bert-embeddings-encoder/overview.html#next-task-7-bert-pretraining",
+    "title": "",
+    "section": "Next: Task 7: BERT Pretraining",
+    "text": "Next: Task 7: BERT Pretraining"
+  },
+  {
+    "objectID": "tasks/index.html",
+    "href": "tasks/index.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "tasks/index.html#task-overview",
+    "href": "tasks/index.html#task-overview",
+    "title": "",
+    "section": "Task Overview",
+    "text": "Task Overview\n\n\n\n#\nTask\nDescription\nEstimated Time\n\n\n\n\n1\nPyTorch Foundations\nTensors, autograd, nn.Module, DataLoader\n2 hours\n\n\n2\nSelf-Attention\nQuery, Key, Value matrices, scaled dot-product\n2 hours\n\n\n3\nMulti-Head Attention\nMultiple attention heads, concatenation\n2 hours\n\n\n4\nTransformer Encoder\nFeed-forward, residual connections, LayerNorm\n2 hours\n\n\n5\nPositional Embeddings\nSinusoidal and learned positional encodings\n1 hour\n\n\n6\nBERT Embeddings & Encoder\nToken + Segment + Position, pooler\n2 hours\n\n\n7\nBERT Pretraining\nMLM + NSP objectives\n3 hours\n\n\n8\nBERT Finetuning - Classification\nSentiment analysis task\n2 hours\n\n\n9\nBERT Finetuning - QA\nQuestion answering task\n2 hours\n\n\n10\nInference & Serving\nFastAPI REST API\n2 hours\n\n\n11\nProduction Optimization\nONNX, quantization, TorchScript\n2 hours\n\n\n12\nAdvanced Exercises\nHuggingFace compat, RoBERTa, ALBERT\n4+ hours"
+  },
+  {
+    "objectID": "tasks/index.html#how-each-task-works",
+    "href": "tasks/index.html#how-each-task-works",
+    "title": "",
+    "section": "How Each Task Works",
+    "text": "How Each Task Works\n\nRead the overview to understand the concept\nOpen the notebook and follow along\nImplement the code yourself\nComplete the exercises\nRun tests to verify your implementation"
+  },
+  {
+    "objectID": "tasks/index.html#progress-tracking",
+    "href": "tasks/index.html#progress-tracking",
+    "title": "",
+    "section": "Progress Tracking",
+    "text": "Progress Tracking\n\nTask 1: PyTorch Foundations\nTask 2: Self-Attention\nTask 3: Multi-Head Attention\nTask 4: Transformer Encoder\nTask 5: Positional Embeddings\nTask 6: BERT Embeddings & Encoder\nTask 7: BERT Pretraining\nTask 8: BERT Finetuning - Classification\nTask 9: BERT Finetuning - QA\nTask 10: Inference & Serving\nTask 11: Production Optimization\nTask 12: Advanced Exercises"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "index.html#what-youll-build",
+    "href": "index.html#what-youll-build",
+    "title": "",
+    "section": "What You’ll Build",
+    "text": "What You’ll Build\nBy the end of this project, you will have implemented:\n\n✅ PyTorch Fundamentals - Tensors, autograd, nn.Module\n✅ Self-Attention Mechanism - Query, Key, Value\n✅ Multi-Head Attention - Parallel attention heads\n✅ Transformer Encoder - Residual connections, layer normalization\n✅ Positional Embeddings - Sinusoidal and learned\n✅ BERT Architecture - Embeddings + Encoder + Pooler\n✅ Pretraining - Masked Language Modeling (MLM) + Next Sentence Prediction (NSP)\n✅ Finetuning - Classification and Question Answering\n✅ Inference & Serving - REST API with FastAPI\n✅ Production Optimization - ONNX export, quantization"
+  },
+  {
+    "objectID": "index.html#learning-path",
+    "href": "index.html#learning-path",
+    "title": "",
+    "section": "Learning Path",
+    "text": "Learning Path\n\n\n\nTask\nTopic\nEst. Time\n\n\n\n\n1\nPyTorch Foundations\n2 hours\n\n\n2\nSelf-Attention\n2 hours\n\n\n3\nMulti-Head Attention\n2 hours\n\n\n4\nTransformer Encoder\n2 hours\n\n\n5\nPositional Embeddings\n1 hour\n\n\n6\nBERT Embeddings & Encoder\n2 hours\n\n\n7\nBERT Pretraining (MLM + NSP)\n3 hours\n\n\n8\nBERT Finetuning - Classification\n2 hours\n\n\n9\nBERT Finetuning - QA\n2 hours\n\n\n10\nInference & Model Serving\n2 hours\n\n\n11\nProduction Optimization\n2 hours\n\n\n12\nAdvanced Exercises\n4+ hours"
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nPython 3.10+\nBasic understanding of neural networks\nFamiliarity with linear algebra (matrix operations)\nPyTorch basics (covered in Task 1)"
+  },
+  {
+    "objectID": "index.html#how-to-use-this-project",
+    "href": "index.html#how-to-use-this-project",
+    "title": "",
+    "section": "How to Use This Project",
+    "text": "How to Use This Project\n\nStart with Task 1 - Each task has a Jupyter notebook with explanations\nImplement the code - Follow along and write your own implementations\nComplete exercises - Test your understanding with exercises\nCheck the reference - API docs for the modular code"
+  },
+  {
+    "objectID": "index.html#quick-start",
+    "href": "index.html#quick-start",
+    "title": "",
+    "section": "Quick Start",
+    "text": "Quick Start\n# Clone the repository\ngit clone https://github.com/YOUR_USERNAME/autokernel.git\ncd autokernel\n\n# Create virtual environment\npython -m venv venv\nsource venv/bin/activate  # or venv\\Scripts\\activate on Windows\n\n# Install dependencies\npip install -r requirements.txt\n\n# Launch Jupyter\njupyter notebook\nThen navigate to tasks/task-01-pytorch-basics/notebook.ipynb to begin!"
+  },
+  {
+    "objectID": "index.html#project-structure",
+    "href": "index.html#project-structure",
+    "title": "",
+    "section": "Project Structure",
+    "text": "Project Structure\nautokernel/\n├── tasks/           # Learning modules (12 tasks)\n│   └── task-*/      \n│       ├── notebook.ipynb\n│       └── overview.md\n├── src/             # Modular Python code\n│   └── bert/\n├── exercises/       # Additional exercises\n├── tests/           # Unit tests\n└── _site/          # Built documentation"
+  },
+  {
+    "objectID": "index.html#why-build-bert-from-scratch",
+    "href": "index.html#why-build-bert-from-scratch",
+    "title": "",
+    "section": "Why Build BERT From Scratch?",
+    "text": "Why Build BERT From Scratch?\n\nDeep Understanding - Go beyond high-level APIs\nInterview Prep - Master transformer internals\nCustomization - Modify architecture for your needs\nResearch - Build on top for novel contributions\n\nLet’s begin! 🚀"
+  },
+  {
+    "objectID": "exercises/index.html",
+    "href": "exercises/index.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "exercises/index.html#exercise-categories",
+    "href": "exercises/index.html#exercise-categories",
+    "title": "",
+    "section": "Exercise Categories",
+    "text": "Exercise Categories\n\n1. Attention Variations\n\nImplement relative positional encoding\nAdd causal masking for GPT-style models\nTry different attention implementations (linear, convolution-based)\n\n\n\n2. Model Architecture\n\nBuild ALBERT with parameter sharing\nImplement RoBERTa without NSP\nCreate a distilled student model\n\n\n\n3. Training Techniques\n\nAdd label smoothing\nImplement warmup learning rate schedule\nTry different optimizers (AdamW, LAMB, LARS)\n\n\n\n4. Evaluation\n\nImplement precision, recall, F1 for classification\nAdd exact match and F1 for QA\nCreate custom evaluation metrics"
+  },
+  {
+    "objectID": "exercises/index.html#solutions",
+    "href": "exercises/index.html#solutions",
+    "title": "",
+    "section": "Solutions",
+    "text": "Solutions\nCheck the solutions/ directory for reference implementations."
+  },
+  {
+    "objectID": "reference.html",
+    "href": "reference.html",
+    "title": "",
+    "section": "",
+    "text": "Code"
+  },
+  {
+    "objectID": "reference.html#modules",
+    "href": "reference.html#modules",
+    "title": "",
+    "section": "Modules",
+    "text": "Modules\n\nsrc.bert.attention\n\nSelfAttention\nclass SelfAttention(nn.Module):\n    def __init__(self, embed_dim: int, d_k: int = None, d_v: int = None, dropout: float = 0.1)\n    def forward(self, x: torch.Tensor, mask: torch.Tensor = None) -&gt; tuple[torch.Tensor, torch.Tensor]\n\n\nMultiHeadAttention\nclass MultiHeadAttention(nn.Module):\n    def __init__(self, embed_dim: int, num_heads: int, dropout: float = 0.1)\n    def forward(self, x: torch.Tensor, mask: torch.Tensor = None) -&gt; tuple[torch.Tensor, torch.Tensor]\n\n\n\nsrc.bert.transformer\n\nTransformerEncoderBlock\nclass TransformerEncoderBlock(nn.Module):\n    def __init__(self, embed_dim: int, num_heads: int, d_ff: int, dropout: float = 0.1)\n    def forward(self, x: torch.Tensor, mask: torch.Tensor = None) -&gt; torch.Tensor\n\n\nTransformerEncoder\nclass TransformerEncoder(nn.Module):\n    def __init__(self, num_layers: int, embed_dim: int, num_heads: int, d_ff: int, dropout: float = 0.1)\n    def forward(self, x: torch.Tensor, mask: torch.Tensor = None) -&gt; torch.Tensor\n\n\n\nsrc.bert.embeddings\n\nBERTEmbeddings\nclass BERTEmbeddings(nn.Module):\n    def __init__(self, vocab_size: int, d_model: int, max_len: int = 512, dropout: float = 0.1)\n    def forward(self, token_ids: torch.Tensor, segment_ids: torch.Tensor = None) -&gt; torch.Tensor\n\n\n\nsrc.bert.bert\n\nBERTModel\nclass BERTModel(nn.Module):\n    def __init__(self, vocab_size: int, d_model: int = 768, num_heads: int = 12, ...)\n    def forward(self, token_ids: torch.Tensor, segment_ids: torch.Tensor = None, attention_mask: torch.Tensor = None)\n\n\nBERTForClassification\nclass BERTForClassification(nn.Module):\n    def __init__(self, vocab_size: int, num_labels: int = 2, ...)\n    def forward(self, token_ids: torch.Tensor, attention_mask: torch.Tensor = None, labels: torch.Tensor = None)\n\n\nBERTForQuestionAnswering\nclass BERTForQuestionAnswering(nn.Module):\n    def __init__(self, vocab_size: int, ...)\n    def forward(self, token_ids: torch.Tensor, attention_mask: torch.Tensor = None, start_positions: torch.Tensor = None, end_positions: torch.Tensor = None)\n\n\nBERTForPretraining\nclass BERTForPretraining(nn.Module):\n    def __init__(self, vocab_size: int, ...)\n    def forward(self, token_ids: torch.Tensor, segment_ids: torch.Tensor = None, attention_mask: torch.Tensor = None, mlm_labels: torch.Tensor = None, nsp_labels: torch.Tensor = None)"
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/notebook.html",
+    "href": "tasks/task-06-bert-embeddings-encoder/notebook.html",
+    "title": "Task 6: BERT Embeddings & Encoder",
+    "section": "",
+    "text": "Combining token, segment, and position embeddings."
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/notebook.html#bert-embeddings",
+    "href": "tasks/task-06-bert-embeddings-encoder/notebook.html#bert-embeddings",
+    "title": "Task 6: BERT Embeddings & Encoder",
+    "section": "BERT Embeddings",
+    "text": "BERT Embeddings\nBERT uses three types of embeddings: 1. Token embeddings: WordPiece tokens 2. Segment embeddings: [SEP] distinguishes sentences 3. Position embeddings: Positional information"
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/notebook.html#complete-bert-encoder",
+    "href": "tasks/task-06-bert-embeddings-encoder/notebook.html#complete-bert-encoder",
+    "title": "Task 6: BERT Embeddings & Encoder",
+    "section": "Complete BERT Encoder",
+    "text": "Complete BERT Encoder"
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/notebook.html#summary",
+    "href": "tasks/task-06-bert-embeddings-encoder/notebook.html#summary",
+    "title": "Task 6: BERT Embeddings & Encoder",
+    "section": "Summary",
+    "text": "Summary\n\n✅ Token + Segment + Position embeddings\n✅ Multiple encoder layers\n✅ [CLS] token pooling"
+  },
+  {
+    "objectID": "tasks/task-06-bert-embeddings-encoder/notebook.html#next-task-7-bert-pretraining-mlm-nsp",
+    "href": "tasks/task-06-bert-embeddings-encoder/notebook.html#next-task-7-bert-pretraining-mlm-nsp",
+    "title": "Task 6: BERT Embeddings & Encoder",
+    "section": "Next: Task 7: BERT Pretraining (MLM + NSP)",
+    "text": "Next: Task 7: BERT Pretraining (MLM + NSP)"
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/notebook.html",
+    "href": "tasks/task-10-inference-serving/notebook.html",
+    "title": "Task 10: Inference & Model Serving",
+    "section": "",
+    "text": "Building a FastAPI REST API for BERT predictions."
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/notebook.html#fastapi-server-setup",
+    "href": "tasks/task-10-inference-serving/notebook.html#fastapi-server-setup",
+    "title": "Task 10: Inference & Model Serving",
+    "section": "FastAPI Server Setup",
+    "text": "FastAPI Server Setup"
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/notebook.html#client-usage",
+    "href": "tasks/task-10-inference-serving/notebook.html#client-usage",
+    "title": "Task 10: Inference & Model Serving",
+    "section": "Client Usage",
+    "text": "Client Usage"
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/notebook.html#summary",
+    "href": "tasks/task-10-inference-serving/notebook.html#summary",
+    "title": "Task 10: Inference & Model Serving",
+    "section": "Summary",
+    "text": "Summary\n\n✅ FastAPI REST endpoints\n✅ Pydantic request/response models\n✅ Batch inference for efficiency\n✅ Health checks"
+  },
+  {
+    "objectID": "tasks/task-10-inference-serving/notebook.html#next-task-11-production-optimization",
+    "href": "tasks/task-10-inference-serving/notebook.html#next-task-11-production-optimization",
+    "title": "Task 10: Inference & Model Serving",
+    "section": "Next: Task 11: Production Optimization",
+    "text": "Next: Task 11: Production Optimization"
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/notebook.html",
+    "href": "tasks/task-12-advanced-exercises/notebook.html",
+    "title": "Task 12: Advanced Exercises",
+    "section": "",
+    "text": "Extend your BERT implementation with advanced features!"
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/notebook.html#exercise-1-huggingface-compatibility",
+    "href": "tasks/task-12-advanced-exercises/notebook.html#exercise-1-huggingface-compatibility",
+    "title": "Task 12: Advanced Exercises",
+    "section": "Exercise 1: HuggingFace Compatibility",
+    "text": "Exercise 1: HuggingFace Compatibility\nMake your BERT compatible with HuggingFace transformers."
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/notebook.html#exercise-2-roberta-variation",
+    "href": "tasks/task-12-advanced-exercises/notebook.html#exercise-2-roberta-variation",
+    "title": "Task 12: Advanced Exercises",
+    "section": "Exercise 2: RoBERTa Variation",
+    "text": "Exercise 2: RoBERTa Variation\nRoBERTa removes NSP and trains longer with more data."
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/notebook.html#exercise-3-albert",
+    "href": "tasks/task-12-advanced-exercises/notebook.html#exercise-3-albert",
+    "title": "Task 12: Advanced Exercises",
+    "section": "Exercise 3: ALBERT",
+    "text": "Exercise 3: ALBERT\nALBERT uses parameter sharing and factorized embeddings."
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/notebook.html#exercise-4-custom-extensions",
+    "href": "tasks/task-12-advanced-exercises/notebook.html#exercise-4-custom-extensions",
+    "title": "Task 12: Advanced Exercises",
+    "section": "Exercise 4: Custom Extensions",
+    "text": "Exercise 4: Custom Extensions\nTry different activation functions, pooling strategies, or knowledge distillation."
+  },
+  {
+    "objectID": "tasks/task-12-advanced-exercises/notebook.html#congratulations",
+    "href": "tasks/task-12-advanced-exercises/notebook.html#congratulations",
+    "title": "Task 12: Advanced Exercises",
+    "section": "Congratulations!",
+    "text": "Congratulations!\nYou’ve completed the BERT from Scratch project!"
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/notebook.html",
+    "href": "tasks/task-07-bert-pretraining/notebook.html",
+    "title": "Task 7: BERT Pretraining",
+    "section": "",
+    "text": "Implementing MLM (Masked Language Modeling) and NSP (Next Sentence Prediction)."
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/notebook.html#masked-language-modeling-mlm",
+    "href": "tasks/task-07-bert-pretraining/notebook.html#masked-language-modeling-mlm",
+    "title": "Task 7: BERT Pretraining",
+    "section": "Masked Language Modeling (MLM)",
+    "text": "Masked Language Modeling (MLM)\nRandomly mask 15% of tokens and predict them: - 80% replaced with [MASK] - 10% replaced with random token - 10% kept as original"
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/notebook.html#next-sentence-prediction-nsp",
+    "href": "tasks/task-07-bert-pretraining/notebook.html#next-sentence-prediction-nsp",
+    "title": "Task 7: BERT Pretraining",
+    "section": "Next Sentence Prediction (NSP)",
+    "text": "Next Sentence Prediction (NSP)\nPredict if sentence B follows sentence A (IsNext or NotNext)."
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/notebook.html#summary",
+    "href": "tasks/task-07-bert-pretraining/notebook.html#summary",
+    "title": "Task 7: BERT Pretraining",
+    "section": "Summary",
+    "text": "Summary\n\n✅ MLM: Mask 15%, predict masked tokens\n✅ NSP: Binary classification (IsNext/NotNext)\n✅ Combined loss for pretraining"
+  },
+  {
+    "objectID": "tasks/task-07-bert-pretraining/notebook.html#next-task-8-bert-finetuning---classification",
+    "href": "tasks/task-07-bert-pretraining/notebook.html#next-task-8-bert-finetuning---classification",
+    "title": "Task 7: BERT Pretraining",
+    "section": "Next: Task 8: BERT Finetuning - Classification",
+    "text": "Next: Task 8: BERT Finetuning - Classification"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html",
+    "href": "tasks/task-02-self-attention/notebook.html",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "",
+    "text": "Self-attention is the fundamental building block of transformers. It allows each position in a sequence to attend to all positions in the previous layer."
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#what-youll-learn",
+    "href": "tasks/task-02-self-attention/notebook.html#what-youll-learn",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\n\nQuery, Key, Value - The three vectors used in attention\nScaled Dot-Product Attention - The core attention computation\nAttention Weights - How to visualize what the model attends to\nWhy Scaling - Understanding the scaling factor"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#theory-how-self-attention-works",
+    "href": "tasks/task-02-self-attention/notebook.html#theory-how-self-attention-works",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "Theory: How Self-Attention Works",
+    "text": "Theory: How Self-Attention Works\nGiven an input sequence, self-attention computes:\nAttention(Q, K, V) = softmax(QK^T / sqrt(d_k))V\nWhere: - Q (Query): What I’m looking for - K (Key): What I can offer - V (Value): What I actually give - d_k: Dimension of keys (for scaling)"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#creating-q-k-v-from-input",
+    "href": "tasks/task-02-self-attention/notebook.html#creating-q-k-v-from-input",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "1. Creating Q, K, V from Input",
+    "text": "1. Creating Q, K, V from Input"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#scaled-dot-product-attention",
+    "href": "tasks/task-02-self-attention/notebook.html#scaled-dot-product-attention",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "2. Scaled Dot-Product Attention",
+    "text": "2. Scaled Dot-Product Attention"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#why-scale-the-gradient-problem",
+    "href": "tasks/task-02-self-attention/notebook.html#why-scale-the-gradient-problem",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "3. Why Scale? The Gradient Problem",
+    "text": "3. Why Scale? The Gradient Problem"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#self-attention-as-a-pytorch-module",
+    "href": "tasks/task-02-self-attention/notebook.html#self-attention-as-a-pytorch-module",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "4. Self-Attention as a PyTorch Module",
+    "text": "4. Self-Attention as a PyTorch Module"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#exercises",
+    "href": "tasks/task-02-self-attention/notebook.html#exercises",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "Exercises",
+    "text": "Exercises\n\nExercise 1: Implement Self-Attention from Scratch\nImplement self-attention WITHOUT using any PyTorch operations except basic matrix ops (matmul, transpose). Use only torch.matmul, torch.transpose, torch.softmax, and basic math operations.\n\n\nExercise 2: Masked Attention\nImplement attention with a causal mask (so each position can only attend to previous positions). This is used in decoder-only models like GPT.\n\n\nExercise 3: Multi-Token Attention Visualization\nCreate a longer sequence (e.g., 10 tokens) and visualize how attention learns to attend to different positions. Use different random seeds and observe patterns."
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#summary",
+    "href": "tasks/task-02-self-attention/notebook.html#summary",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "Summary",
+    "text": "Summary\nYou learned: - ✅ Query, Key, Value concept and projections - ✅ Scaled dot-product attention computation - ✅ Why scaling by sqrt(d_k) is important - ✅ How to implement self-attention as a PyTorch module - ✅ Visualizing attention weights"
+  },
+  {
+    "objectID": "tasks/task-02-self-attention/notebook.html#next-task",
+    "href": "tasks/task-02-self-attention/notebook.html#next-task",
+    "title": "Task 2: Self-Attention Mechanism",
+    "section": "Next Task",
+    "text": "Next Task\nTask 3: Multi-Head Attention - We’ll extend self-attention to multiple heads!"
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/notebook.html",
+    "href": "tasks/task-04-transformer-encoder/notebook.html",
+    "title": "Task 4: Transformer Encoder Block",
+    "section": "",
+    "text": "Complete encoder with multi-head attention, feed-forward, and residuals."
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/notebook.html#exercises",
+    "href": "tasks/task-04-transformer-encoder/notebook.html#exercises",
+    "title": "Task 4: Transformer Encoder Block",
+    "section": "Exercises",
+    "text": "Exercises\n\nExercise 1: Custom Implementation\nImplement your own TransformerEncoderBlock WITHOUT using nn.MultiheadAttention."
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/notebook.html#summary",
+    "href": "tasks/task-04-transformer-encoder/notebook.html#summary",
+    "title": "Task 4: Transformer Encoder Block",
+    "section": "Summary",
+    "text": "Summary\n\n✅ Multi-head attention + residual + LayerNorm\n✅ Position-wise feed-forward network\n✅ Stack multiple blocks for deep encoder"
+  },
+  {
+    "objectID": "tasks/task-04-transformer-encoder/notebook.html#next-task-5-positional-embeddings",
+    "href": "tasks/task-04-transformer-encoder/notebook.html#next-task-5-positional-embeddings",
+    "title": "Task 4: Transformer Encoder Block",
+    "section": "Next: Task 5: Positional Embeddings",
+    "text": "Next: Task 5: Positional Embeddings"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/notebook.html",
+    "href": "tasks/task-03-multi-head-attention/notebook.html",
+    "title": "Task 3: Multi-Head Attention",
+    "section": "",
+    "text": "Multi-head attention allows the model to attend to different representation subspaces simultaneously."
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/notebook.html#what-youll-learn",
+    "href": "tasks/task-03-multi-head-attention/notebook.html#what-youll-learn",
+    "title": "Task 3: Multi-Head Attention",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\n\nWhy Multiple Heads? - Different heads learn different relationships\nMulti-Head Implementation - Parallel attention computation\nConcatenation & Projection - Combining head outputs"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/notebook.html#theory-multi-head-attention",
+    "href": "tasks/task-03-multi-head-attention/notebook.html#theory-multi-head-attention",
+    "title": "Task 3: Multi-Head Attention",
+    "section": "Theory: Multi-Head Attention",
+    "text": "Theory: Multi-Head Attention\nMulti-head attention applies \\(h\\) attention heads in parallel:\nMultiHead(Q,K,V) = Concat(head_1, …, head_h)W^O\nwhere head_i = Attention(QW_i^Q, KW_i^K, VW_i^V)\nEach head can learn different types of relationships!"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/notebook.html#exercises",
+    "href": "tasks/task-03-multi-head-attention/notebook.html#exercises",
+    "title": "Task 3: Multi-Head Attention",
+    "section": "Exercises",
+    "text": "Exercises\n\nExercise 1: Implement Multi-Head from Single-Head\nBuild multi-head attention by combining multiple SingleAttention instances."
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/notebook.html#summary",
+    "href": "tasks/task-03-multi-head-attention/notebook.html#summary",
+    "title": "Task 3: Multi-Head Attention",
+    "section": "Summary",
+    "text": "Summary\n\n✅ Multiple heads learn different attention patterns\n✅ Concatenation followed by linear projection\n✅ Parallel computation is efficient"
+  },
+  {
+    "objectID": "tasks/task-03-multi-head-attention/notebook.html#next-task-4-transformer-encoder",
+    "href": "tasks/task-03-multi-head-attention/notebook.html#next-task-4-transformer-encoder",
+    "title": "Task 3: Multi-Head Attention",
+    "section": "Next: Task 4: Transformer Encoder",
+    "text": "Next: Task 4: Transformer Encoder"
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/notebook.html",
+    "href": "tasks/task-11-production-optimization/notebook.html",
+    "title": "Task 11: Production Optimization",
+    "section": "",
+    "text": "Optimize BERT for inference: TorchScript, ONNX, Quantization."
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/notebook.html#torchscript",
+    "href": "tasks/task-11-production-optimization/notebook.html#torchscript",
+    "title": "Task 11: Production Optimization",
+    "section": "1. TorchScript",
+    "text": "1. TorchScript\nCompile model to serialized format for faster execution."
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/notebook.html#onnx-export",
+    "href": "tasks/task-11-production-optimization/notebook.html#onnx-export",
+    "title": "Task 11: Production Optimization",
+    "section": "2. ONNX Export",
+    "text": "2. ONNX Export\nExport to ONNX for cross-platform deployment."
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/notebook.html#quantization",
+    "href": "tasks/task-11-production-optimization/notebook.html#quantization",
+    "title": "Task 11: Production Optimization",
+    "section": "3. Quantization",
+    "text": "3. Quantization\nReduce model size and improve speed with INT8 quantization."
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/notebook.html#summary",
+    "href": "tasks/task-11-production-optimization/notebook.html#summary",
+    "title": "Task 11: Production Optimization",
+    "section": "Summary",
+    "text": "Summary\n\n✅ TorchScript for faster inference\n✅ ONNX for cross-platform deployment\n✅ Quantization for model compression\n✅ Benchmarking tools"
+  },
+  {
+    "objectID": "tasks/task-11-production-optimization/notebook.html#next-task-12-advanced-exercises",
+    "href": "tasks/task-11-production-optimization/notebook.html#next-task-12-advanced-exercises",
+    "title": "Task 11: Production Optimization",
+    "section": "Next: Task 12: Advanced Exercises",
+    "text": "Next: Task 12: Advanced Exercises"
+  },
+  {
+    "objectID": "tasks/task-08-bert-classification/notebook.html",
+    "href": "tasks/task-08-bert-classification/notebook.html",
+    "title": "Task 8: BERT Finetuning - Classification",
+    "section": "",
+    "text": "Finetuning BERT for sentiment analysis."
+  },
+  {
+    "objectID": "tasks/task-08-bert-classification/notebook.html#summary",
+    "href": "tasks/task-08-bert-classification/notebook.html#summary",
+    "title": "Task 8: BERT Finetuning - Classification",
+    "section": "Summary",
+    "text": "Summary\n\n✅ Use [CLS] token for classification\n✅ Finetune entire model on downstream task\n✅ Cross-entropy loss for classification"
+  },
+  {
+    "objectID": "tasks/task-08-bert-classification/notebook.html#next-task-9-bert-finetuning---qa",
+    "href": "tasks/task-08-bert-classification/notebook.html#next-task-9-bert-finetuning---qa",
+    "title": "Task 8: BERT Finetuning - Classification",
+    "section": "Next: Task 9: BERT Finetuning - QA",
+    "text": "Next: Task 9: BERT Finetuning - QA"
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/notebook.html",
+    "href": "tasks/task-09-bert-qa/notebook.html",
+    "title": "Task 9: BERT Question Answering",
+    "section": "",
+    "text": "Finetuning BERT to predict start and end positions of answer spans."
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/notebook.html#qa-model",
+    "href": "tasks/task-09-bert-qa/notebook.html#qa-model",
+    "title": "Task 9: BERT Question Answering",
+    "section": "QA Model",
+    "text": "QA Model\nBERT QA predicts: - Start position: Where the answer begins - End position: Where the answer ends"
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/notebook.html#summary",
+    "href": "tasks/task-09-bert-qa/notebook.html#summary",
+    "title": "Task 9: BERT Question Answering",
+    "section": "Summary",
+    "text": "Summary\n\n✅ Predict start and end positions\n✅ Use span extraction (not classification)\n✅ SQuAD-style training"
+  },
+  {
+    "objectID": "tasks/task-09-bert-qa/notebook.html#next-task-10-inference-model-serving",
+    "href": "tasks/task-09-bert-qa/notebook.html#next-task-10-inference-model-serving",
+    "title": "Task 9: BERT Question Answering",
+    "section": "Next: Task 10: Inference & Model Serving",
+    "text": "Next: Task 10: Inference & Model Serving"
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/notebook.html",
+    "href": "tasks/task-05-positional-embeddings/notebook.html",
+    "title": "Task 5: Positional Embeddings",
+    "section": "",
+    "text": "Learn two types: Sinusoidal (fixed) and Learned embeddings."
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/notebook.html#sinusoidal-positional-embeddings",
+    "href": "tasks/task-05-positional-embeddings/notebook.html#sinusoidal-positional-embeddings",
+    "title": "Task 5: Positional Embeddings",
+    "section": "Sinusoidal Positional Embeddings",
+    "text": "Sinusoidal Positional Embeddings\nUsing sine and cosine functions at different frequencies."
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/notebook.html#learned-positional-embeddings",
+    "href": "tasks/task-05-positional-embeddings/notebook.html#learned-positional-embeddings",
+    "title": "Task 5: Positional Embeddings",
+    "section": "Learned Positional Embeddings",
+    "text": "Learned Positional Embeddings\nBERT uses learned positional embeddings instead."
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/notebook.html#summary",
+    "href": "tasks/task-05-positional-embeddings/notebook.html#summary",
+    "title": "Task 5: Positional Embeddings",
+    "section": "Summary",
+    "text": "Summary\n\n✅ Sinusoidal: Fixed, extrapolates to longer sequences\n✅ Learned: More flexible, BERT uses this"
+  },
+  {
+    "objectID": "tasks/task-05-positional-embeddings/notebook.html#next-task-6-bert-embeddings-encoder",
+    "href": "tasks/task-05-positional-embeddings/notebook.html#next-task-6-bert-embeddings-encoder",
+    "title": "Task 5: Positional Embeddings",
+    "section": "Next: Task 6: BERT Embeddings & Encoder",
+    "text": "Next: Task 6: BERT Embeddings & Encoder"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html",
+    "href": "tasks/task-01-pytorch-basics/notebook.html",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "",
+    "text": "Welcome to the first task! In this notebook, we’ll cover the essential PyTorch concepts you need to implement BERT from scratch."
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#what-youll-learn",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#what-youll-learn",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\n\nTensors - The fundamental data structure\nAutograd - Automatic differentiation\nnn.Module - Building custom layers\nDataLoader - Efficient batch processing\n\nLet’s get started!"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#tensors",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#tensors",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "1. Tensors",
+    "text": "1. Tensors"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#autograd---automatic-differentiation",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#autograd---automatic-differentiation",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "2. Autograd - Automatic Differentiation",
+    "text": "2. Autograd - Automatic Differentiation"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#nn.module---building-custom-layers",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#nn.module---building-custom-layers",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "3. nn.Module - Building Custom Layers",
+    "text": "3. nn.Module - Building Custom Layers"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#dataloader---efficient-batch-processing",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#dataloader---efficient-batch-processing",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "4. DataLoader - Efficient Batch Processing",
+    "text": "4. DataLoader - Efficient Batch Processing"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#exercises",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#exercises",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "Exercises",
+    "text": "Exercises\nNow it’s time to practice what you’ve learned!\n\nExercise 1: Tensor Manipulation\nCreate a 3D tensor of shape (2, 3, 4) filled with random values. Then: - Reshape it to shape (2, 12) - Transpose it so the shape becomes (4, 3, 2) - Slice it to get the first element of the first dimension\n\n\nExercise 2: Custom Linear Layer\nImplement a custom Linear layer with: - Xavier/Glorot initialization for weights - Optional bias term - Test it with a forward pass\n\n\nExercise 3: Training Loop\nCreate a custom Dataset for a classification problem (e.g., binary sentiment: positive/negative). Train a simple MLP to classify the data."
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#summary",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#summary",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "Summary",
+    "text": "Summary\nIn this task, you learned: - ✅ PyTorch tensors and basic operations - ✅ Automatic differentiation with autograd - ✅ Building custom modules with nn.Module - ✅ Using DataLoader for batch processing - ✅ Training loops with optimizers"
+  },
+  {
+    "objectID": "tasks/task-01-pytorch-basics/notebook.html#next-task",
+    "href": "tasks/task-01-pytorch-basics/notebook.html#next-task",
+    "title": "Task 1: PyTorch Foundations",
+    "section": "Next Task",
+    "text": "Next Task\nIn Task 2: Self-Attention Mechanism, we’ll implement the core attention mechanism that powers BERT!"
+  }
+]
